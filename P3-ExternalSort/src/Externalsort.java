@@ -5,8 +5,8 @@
 /**
  * The class containing the main method.
  *
- * @author {Your Name Here}
- * @version {Put Something Here}
+ * @author Aniket Adhikari
+ * @version 21 March 2022
  */
 
 // On my honor:
