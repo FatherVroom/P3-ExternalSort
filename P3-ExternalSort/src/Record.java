@@ -39,6 +39,15 @@ public class Record implements Comparable<Record> {
         ByteBuffer buff = ByteBuffer.wrap(completeRecord);
         return buff.getDouble(8);
     }
+    
+    /**
+     * Return's the object's value
+     */
+    public long getValue() {
+        ByteBuffer buff = ByteBuffer.wrap(completeRecord);
+        return buff.slice(0, 8).getLong();
+    }
+         
 
 
     /**
